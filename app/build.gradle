@@ -22,8 +22,8 @@ android {
         }
     }
     compileOptions {
-        targetCompatibility 1.8
-        sourceCompatibility 1.8
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
@@ -49,9 +49,7 @@ dependencies {
     compile 'de.dentrassi.kapua:kapua-gateway-client-provider-mqtt-fuse:0.2.1'
     compile 'de.dentrassi.kapua:kapua-gateway-client-api:0.2.1'
     compile 'de.dentrassi.kapua:kapua-gateway-client-profile-kura:0.2.1'
-    compile 'de.dentrassi.kapua:kapua-gateway-client-provider-mqtt:0.2.1'
-    //compile 'de.dentrassi.kapua: kapua-gateway-client-provider-mqtt-fuse:0.2.1'
-    compile 'de.dentrassi.kapua:kapua-gateway-client-provider-mqtt-paho:0.2.1'
-    compile 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0'
+
+
 
 }
